@@ -481,6 +481,7 @@ namespace spilcd16
                     .timer_sel  = LEDC_TIMER_0,
                     .duty       = BACKLIGHT_ON_PWM,
                     .hpoint     = 0,
+                    .sleep_mode = LEDC_SLEEP_MODE_NO_ALIVE_NO_PD,
                     .flags{.output_invert=0}
                 };
       
