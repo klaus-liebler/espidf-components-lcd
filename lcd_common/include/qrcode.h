@@ -34,14 +34,8 @@
  */
 
 
-#ifndef __QRCODE_H_
-#define __QRCODE_H_
+#pragma once
 
-#ifndef __cplusplus
-typedef unsigned char bool;
-static const bool false = 0;
-static const bool true = 1;
-#endif
 
 #include <stdint.h>
 
@@ -96,4 +90,3 @@ bool qrcode_getModule(QRCode *qrcode, uint8_t x, uint8_t y);
 #endif  /* __cplusplus */
 
 
-#endif  /* __QRCODE_H_ */
